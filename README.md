@@ -1,6 +1,6 @@
 # SharpKit
 
-A .NET 8 C# library for offensive security operations. No external NuGet dependencies. Uses `System.Net.Http`, `System.Runtime.InteropServices`, and `System.Net.Sockets` onl.
+A .NET 8 C# library for offensive security operations. No external NuGet dependencies. Uses `System.Net.Http`, `System.Runtime.InteropServices`, and `System.Net.Sockets` only.
 
 ## Requirements
 
@@ -226,4 +226,4 @@ var udp = PacketCrafter.BuildUdpPacket(
 
 Kerberos network methods (`RequestTgtAsync`, `RequestServiceTicketAsync`) return `null` placeholders. Wire up a TCP/UDP send-receive loop around `BuildAsReq` / `BuildTgsReq` and feed the response bytes into `ParseAsRep` / `ParseTgsRep` to complete the exchange. The syscall indirect dispatch (`SyscallStub`) requires a valid `syscall; ret` gadget address located within ntdll at runtime.
 
-I want to thank TanmayCzax(https://github.com/TanmayCzax) for helping me out and giving me idea for this project.
+I want to thank TanmayCzax(https://github.com/TanmayCzax) for helping me out and giving me the idea for this project.
