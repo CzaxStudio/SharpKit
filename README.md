@@ -226,4 +226,4 @@ var udp = PacketCrafter.BuildUdpPacket(
 
 Kerberos network methods (`RequestTgtAsync`, `RequestServiceTicketAsync`) return `null` placeholders. Wire up a TCP/UDP send-receive loop around `BuildAsReq` / `BuildTgsReq` and feed the response bytes into `ParseAsRep` / `ParseTgsRep` to complete the exchange. The syscall indirect dispatch (`SyscallStub`) requires a valid `syscall; ret` gadget address located within ntdll at runtime.
 
-I want to thank @TanmayCzax for helping me out in some cases.
+I want to thank TanmayCzax(https://github.com/TanmayCzax) for helping me out and giving me idea for this project.
