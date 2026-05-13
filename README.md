@@ -19,11 +19,11 @@ dotnet build SharpKit.csproj -c Release
 ```
 dotnet add package SharpKit.Offensive --version 1.0.0
 ```
+The project file enables `AllowUnsafeBlocks` and targets `net8.0`. No restore step is needed beyond the base SDK.
+
 ## NuGet Package
 
 https://www.nuget.org/packages/SharpKit.Offensive
-
-The project file enables `AllowUnsafeBlocks` and targets `net8.0`. No restore step is needed beyond the base SDK.
 
 ## Modules
 
