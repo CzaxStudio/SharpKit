@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<!-- Change from Exe to Library -->
+		
 		<OutputType>Library</OutputType>
 
 		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
@@ -16,7 +16,7 @@
 		<Platforms>x64</Platforms>
 		<NoWarn>CA1416</NoWarn>
 
-		<!-- ===== NUGET PACKAGE PROPERTIES ===== -->
+		
 		<PackageId>SharpKit.Offensive</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Sleek</Authors>
@@ -27,7 +27,7 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 
-		<!-- Include symbols for debugging -->
+		
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	</PropertyGroup>
