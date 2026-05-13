@@ -15,7 +15,10 @@ A .NET 8 C# library for offensive security operations. No external NuGet depende
 ```
 dotnet build SharpKit.csproj -c Release
 ```
-
+## Install the library using NuGet
+```
+dotnet add package SharpKit.Offensive --version 1.0.0
+```
 The project file enables `AllowUnsafeBlocks` and targets `net8.0`. No restore step is needed beyond the base SDK.
 
 ## Modules
