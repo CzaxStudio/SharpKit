@@ -2,6 +2,8 @@
 
 A .NET 8 C# library for offensive security operations. No external NuGet dependencies. Uses `System.Net.Http`, `System.Runtime.InteropServices`, and `System.Net.Sockets` only.
 
+## Learn SharpKit --> https://github.com/CzaxStudio/SharpKit-Docs
+
 ## Requirements
 
 - .NET 8 SDK
