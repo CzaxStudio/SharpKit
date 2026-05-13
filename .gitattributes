@@ -1,0 +1,38 @@
+
+
+
+*.cs linguist-language=C#
+
+
+*.md linguist-documentation
+README.md linguist-documentation
+docs/* linguist-documentation
+
+
+bin/* linguist-generated
+obj/* linguist-generated
+
+
+*.csproj linguist-vendored
+*.sln linguist-vendored
+*.json linguist-vendored
+*.xml linguist-vendored
+
+
+*.nupkg linguist-generated
+*.snupkg linguist-generated
+packages/* linguist-vendored
+
+
+**/tests/* linguist-vendored
+**/demo/* linguist-vendored
+**/SharpKit.Demo/* linguist-vendored
+
+
+*.bin linguist-generated
+*.exe linguist-generated
+*.dll linguist-generated
+
+
+*.ps1 linguist-language=PowerShell
+*.cmd linguist-language=Batch
