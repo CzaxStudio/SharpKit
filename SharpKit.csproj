@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- Change from Exe to Library -->
+		<OutputType>Library</OutputType>
+
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AssemblyName>SharpKit</AssemblyName>
+		<RootNamespace>SharpKit</RootNamespace>
+		<LangVersion>latest</LangVersion>
+		<Optimize>true</Optimize>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+		<Platforms>x64</Platforms>
+		<NoWarn>CA1416</NoWarn>
+
+		<!-- ===== NUGET PACKAGE PROPERTIES ===== -->
+		<PackageId>SharpKit.Offensive</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Sleek</Authors>
+		<Title>SharpKit - Offensive Security Library for .NET</Title>
+		<Description>A .NET 8 and .NET 9 C# library for offensive security operations. No external NuGet dependencies. Uses System.Net.Http, System.Runtime.InteropServices, and System.Net.Sockets only.</Description>
+		<PackageTags>security;offensive;redteam;win32;syscalls;injection;kerberos;packet-crafting</PackageTags>
+		<PackageProjectUrl>https://github.com/CzaxStudio/SharpKit</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
+		<!-- Include symbols for debugging -->
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+</Project>

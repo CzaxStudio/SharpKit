@@ -198,7 +198,7 @@ var sent = await PacketCrafter.SendDnsQueryAsync("target.corp.local",
     IPAddress.Parse("192.168.1.1"), queryType: DnsType.A);
 
 // Spoofed DNS response
-var fakeResponse = PacketCrafter.BuildDnsResponse(dnsQuery,
+var Response = PacketCrafter.BuildDnsResponse(dnsQuery,
     [IPAddress.Parse("10.10.10.10")]);
 
 // TCP SYN packet (raw bytes, IP + TCP headers with valid checksum)
@@ -225,5 +225,4 @@ var udp = PacketCrafter.BuildUdpPacket(
 ## Notes
 
 Kerberos network methods (`RequestTgtAsync`, `RequestServiceTicketAsync`) return `null` placeholders. Wire up a TCP/UDP send-receive loop around `BuildAsReq` / `BuildTgsReq` and feed the response bytes into `ParseAsRep` / `ParseTgsRep` to complete the exchange. The syscall indirect dispatch (`SyscallStub`) requires a valid `syscall; ret` gadget address located within ntdll at runtime.
-
 I want to thank TanmayCzax(https://github.com/TanmayCzax) for helping me out and giving me the idea for this project.
