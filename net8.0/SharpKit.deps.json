@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SharpKit/1.0.5": {
+        "runtime": {
+          "SharpKit.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharpKit/1.0.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
