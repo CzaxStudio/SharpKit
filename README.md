@@ -22,7 +22,7 @@ dotnet add package SharpKit.Offensive --version 1.0.5
 ```
 ## Learn SharpKit
 
-### Docs --> 
+### Docs --> https://github.com/CzaxStudio/SharpKit-Docs
 
 ### Website --> https://github.com/CzaxStudio/SharpKit/
 
