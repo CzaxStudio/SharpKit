@@ -1,12 +1,14 @@
 <img width="1254" height="1254" alt="images" src="https://github.com/user-attachments/assets/f777b2b4-ebdf-43f6-8e30-2f34d91c62cd" />
 
-*Create and Dominate*                                               
+*Create and Dominate*     
 
 # SharpKit
 
-
 SharpKit is a compact .NET 8 library for low-level offensive tooling in C#. It keeps dependencies to a minimum and provides helpers for HTTP, Kerberos frame construction, Win32 APIs, process injection, syscall dispatch, and packet crafting.
 
+## Meaning of the logo -->
+
+**The logo is AI generated** but has a meaning. The white part means the Defensive power and the Red part shows the ultimate power in Red Teaming.
 ## Requirements
 
 - .NET 8 SDK
