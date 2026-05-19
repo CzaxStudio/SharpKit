@@ -7,7 +7,7 @@ public static class Win32
 {
     // -------------------------------------------------------------------------
     // Process access rights
-    // -------------------------------------------------------------------------
+    // ---------------------------------------------------------------------
     public const uint PROCESS_ALL_ACCESS = 0x001FFFFF;
     public const uint PROCESS_VM_READ = 0x0010;
     public const uint PROCESS_VM_WRITE = 0x0020;
@@ -20,7 +20,7 @@ public static class Win32
     public const uint PROCESS_SUSPEND_RESUME = 0x0800;
     public const uint PROCESS_TERMINATE = 0x0001;
 
-    // -------------------------------------------------------------------------
+    // ---------------------------------------------------------------
     // Thread access rights
     // -------------------------------------------------------------------------
     public const uint THREAD_ALL_ACCESS = 0x001FFFFF;
@@ -32,7 +32,7 @@ public static class Win32
     public const uint THREAD_SET_THREAD_TOKEN = 0x0080;
     public const uint THREAD_TERMINATE = 0x0001;
 
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------
     // Token access rights
     // -------------------------------------------------------------------------
     public const uint TOKEN_ALL_ACCESS = 0x000F01FF;
@@ -46,7 +46,7 @@ public static class Win32
     public const uint TOKEN_ADJUST_DEFAULT = 0x0080;
     public const uint TOKEN_ADJUST_SESSIONID = 0x0100;
 
-    // -------------------------------------------------------------------------
+    // ------------------------------------------------------------------
     // Memory flags
     // -------------------------------------------------------------------------
     public const uint MEM_COMMIT = 0x1000;
@@ -59,7 +59,7 @@ public static class Win32
     public const uint MEM_PRIVATE = 0x00020000;
     public const uint MEM_IMAGE = 0x01000000;
 
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------
     // Page protection
     // -------------------------------------------------------------------------
     public const uint PAGE_NOACCESS = 0x01;
@@ -87,7 +87,7 @@ public static class Win32
 
     // -------------------------------------------------------------------------
     // File / named pipe / I/O
-    // -------------------------------------------------------------------------
+    // ------------------------------------------------------------------------------------------
     public const uint GENERIC_READ = 0x80000000;
     public const uint GENERIC_WRITE = 0x40000000;
     public const uint GENERIC_EXECUTE = 0x20000000;
@@ -119,7 +119,7 @@ public static class Win32
     public const uint NMPWAIT_WAIT_FOREVER = 0xFFFFFFFF;
     public const uint NMPWAIT_NOWAIT = 0x00000001;
 
-    // -------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------
     // Service control manager
     // -------------------------------------------------------------------------
     public const uint SC_MANAGER_ALL_ACCESS = 0xF003F;
@@ -147,7 +147,7 @@ public static class Win32
     public const uint SERVICE_RUNNING = 0x00000004;
     public const uint SERVICE_STOPPED = 0x00000001;
 
-    // -------------------------------------------------------------------------
+    // -----------------------------------------------------------------
     // Registry
     // -------------------------------------------------------------------------
     public const uint KEY_READ = 0x20019;
@@ -170,7 +170,7 @@ public static class Win32
     public const uint REG_QWORD = 11;
     public const uint REG_MULTI_SZ = 7;
 
-    // -------------------------------------------------------------------------
+    // --------------------------------------------------------------
     // Synchronisation / handle flags
     // -------------------------------------------------------------------------
     public const uint INFINITE = 0xFFFFFFFF;
@@ -183,7 +183,7 @@ public static class Win32
     public const int STARTF_USESTDHANDLES = 0x100;
     public const int STARTF_USESHOWWINDOW = 0x001;
 
-    // -------------------------------------------------------------------------
+    // --------------------------------------------------------------
     // Token / privilege misc
     // -------------------------------------------------------------------------
     public const uint SE_PRIVILEGE_ENABLED = 0x00000002;
@@ -197,7 +197,7 @@ public static class Win32
     public const int TokenPrimary = 1;
     public const int TokenImpersonation = 2;
 
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------
     // Structs
     // -------------------------------------------------------------------------
 
