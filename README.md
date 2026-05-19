@@ -1,4 +1,9 @@
+![Uploading images.jpeg…]()
+
+
+
 # SharpKit
+
 
 SharpKit is a compact .NET 8 library for low-level offensive tooling in C#. It keeps dependencies to a minimum and provides helpers for HTTP, Kerberos frame construction, Win32 APIs, process injection, syscall dispatch, and packet crafting.
 
