@@ -1,6 +1,6 @@
+// Note --> The SharpKit Team has removed Comments from the source code
 using System.Runtime.InteropServices;
 using System.Text;
-
 namespace SharpKit;
 
 public static class Evasion
