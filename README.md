@@ -20,6 +20,11 @@ dotnet build SharpKit.csproj -c Release
 ```powershell
 dotnet add package SharpKit.Offensive --version 1.0.5
 ```
+## Learn SharpKit
+
+### Docs --> 
+
+### Website --> https://github.com/CzaxStudio/SharpKit/
 
 ## Modules
 
