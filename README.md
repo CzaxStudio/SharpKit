@@ -8,7 +8,7 @@ SharpKit is a compact .NET 8 library for low-level offensive tooling in C#. It k
 
 ## Meaning of the logo -->
 
-**The logo is AI-generated** but has meaning. The white represents defensive power, while the red represents the ultimate power in red teaming."
+**The logo is AI-generated** but has meaning. The white represents defensive power, while the red represents the ultimate power in red teaming.
 
 ## Requirements
 
