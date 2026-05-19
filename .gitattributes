@@ -4,30 +4,6 @@
 
 *.cs linguist-language=C#
 *.ps1 linguist-language=PowerShell
-*.cmd linguist-language=Batch
 
 
-*.md linguist-documentation
-README.md linguist-documentation
-docs/* linguist-documentation
 
-
-bin/* linguist-generated
-obj/* linguist-generated
-*.nupkg linguist-generated
-*.snupkg linguist-generated
-*.bin linguist-generated
-*.exe linguist-generated
-*.dll linguist-generated
-
-
-*.csproj linguist-vendored
-*.sln linguist-vendored
-*.json linguist-vendored
-*.xml linguist-vendored
-packages/* linguist-vendored
-
-
-**/tests/* linguist-documentation  
-**/demo/* linguist-vendored  
-**/SharpKit.Demo/* linguist-vendored
