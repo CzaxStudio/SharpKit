@@ -1,7 +1,13 @@
 <img width="1254" height="1254" alt="images" src="https://github.com/user-attachments/assets/f777b2b4-ebdf-43f6-8e30-2f34d91c62cd" />
 
-*Create and Dominate*     
+*Create and Dominate* 
 
+## Before You READ
+
+### The library is flagged by **https://socket.dev/** as a "virus". This is because it interacts with low level Windows API. 
+### To be used only for legal purpose
+### The library can be used by Black Hats but we don't support it.
+### Latest version --> 1.1.0 
 # SharpKit
 
 SharpKit is a compact .NET 8 library for low-level offensive tooling in C#. It keeps dependencies to a minimum and provides helpers for HTTP, Kerberos frame construction, Win32 APIs, process injection, syscall dispatch, and packet crafting.
