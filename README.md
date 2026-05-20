@@ -6,7 +6,7 @@
 
 SharpKit is a compact .NET 8 library for low-level offensive tooling in C#. It keeps dependencies to a minimum and provides helpers for HTTP, Kerberos frame construction, Win32 APIs, process injection, syscall dispatch, and packet crafting.
 
-## Meaning of the logo -->
+## Meaning of the logo 
 
 **The logo is AI-generated** but has meaning. The white represents defensive power, while the red represents the ultimate power in red teaming.
 
