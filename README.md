@@ -2,8 +2,7 @@
 
 *Create and Dominate*  [![Socket Badge](https://badge.socket.dev/nuget/package/sharpkit.offensive/1.0.5)](https://badge.socket.dev/nuget/package/sharpkit.offensive/1.0.5) 
 
-https://img.shields.io/cirrus/github/CzaxStudio/SharpKit.Offensive
-
+![NuGet Downloads](https://img.shields.io/nuget/dt/SharpKit.Offensive)
 
 ## Before You READ
 
