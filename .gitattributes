@@ -2,4 +2,5 @@
 
 *.cs linguist-language=C#
 *.ps1 linguist-language=PowerShell
-*.json linguist-language=json
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
