@@ -2,7 +2,7 @@
 
 *Create and Dominate*  [![Socket Badge](https://badge.socket.dev/nuget/package/sharpkit.offensive/1.0.5)](https://badge.socket.dev/nuget/package/sharpkit.offensive/1.0.5) 
 
-![Cirrus CI - Default Branch Build Status](https://img.shields.io/cirrus/github/CzaxStudio/SharpKit.Offensive)
+https://img.shields.io/cirrus/github/CzaxStudio/SharpKit.Offensive
 
 
 ## Before You READ
