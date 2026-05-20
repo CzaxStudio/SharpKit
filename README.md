@@ -1,6 +1,7 @@
 <img width="1254" height="1254" alt="images" src="https://github.com/user-attachments/assets/f777b2b4-ebdf-43f6-8e30-2f34d91c62cd" />
 
 *Create and Dominate*  [![Socket Badge](https://badge.socket.dev/nuget/package/sharpkit.offensive/1.0.5)](https://badge.socket.dev/nuget/package/sharpkit.offensive/1.0.5) 
+
 [![NuGet Status](https://shields.io)](https://nuget.org)
 
 
