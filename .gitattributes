@@ -1,8 +1,0 @@
-* text=auto eol=lf
-*.cs linguist-language=C#
-*.ps1 linguist-language=PowerShell
-*.md linguist-language=Markdown
-*.slnx text eol=crlf
-*.csproj text eol=crlf
-*.xml text eol=crlf
-*.xaml text eol=crlf
