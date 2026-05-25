@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# First steps
+mkdir Myproject
+cd Myproject
 # Download using .NET CLI
 dotnet add package SharpKit.Offensive --version 1.0.0
 dotnet add package SharpKit.Offensive --version 1.0.5
@@ -20,4 +22,4 @@ paket add SharpKit.Offensive --version 1.1.0
 # Save as download.sh
 # Make it executable: chmod +x download.sh
 # Run using: ./download.sh
-# With Love: CzaxStudio
+
