@@ -1,5 +1,5 @@
 # First steps
-git clone https://github.com/CzaxStudio/SharpKit.git
+https://github.com/CzaxStudio/SharpKit.git
 mkdir Myproject
 cd Myproject 
 
