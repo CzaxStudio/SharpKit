@@ -1,4 +1,9 @@
-# Download using .NET CLI
+# First steps
+git clone https://github.com/CzaxStudio/SharpKit.git
+mkdir Myproject
+cd Myproject 
+
+# Dotnet CLI
 dotnet add package SharpKit.Offensive --version 1.0.0
 dotnet add package SharpKit.Offensive --version 1.0.5
 dotnet add package SharpKit.Offensive --version 1.1.0
