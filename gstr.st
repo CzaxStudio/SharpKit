@@ -37,3 +37,23 @@ WorkerPool >> startWorkerLoop [
 
 WorkerPool >> submitTask: aBlock [
     taskQueue nextPut: aBlock.
+
+
+"Test"
+| pool |
+"Create a pool with 4 concurrent background workers"
+pool := WorkerPool new initializeWithWorkers: 4.
+
+"Submit 5 heavy mathematical tasks to the queue asynchronously"
+pool submitTask: [ 5000 factorial ].
+pool submitTask: [ 6000 factorial ].
+pool submitTask: [ 7000 factorial ].
+pool submitTask: [ 8000 factorial ].
+pool submitTask: [ 9000 factorial ].
+
+"Pause the main thread for 1 second to let workers finish processing"
+(Delay forSeconds: 1) wait.
+
+"Inspect the safely accumulated results array"
+pool inspect.
+
